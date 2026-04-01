@@ -1,0 +1,52 @@
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Arduino build files
+# =========================
+*.ino.bin
+*.elf
+*.hex
+
+# Arduino IDE temp/build folders
+build/
+*.build/
+*.tmp
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# PlatformIO (if you ever use it)
+# =========================
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Python (if used for scripts/tools)
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+*.key
+*.pem
+
+# =========================
+# Mac/Linux temp files
+# =========================
+*~
